@@ -54,7 +54,7 @@ const ContactForm = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm(`${process.env.REACT_APP_SERVICE}`, `${process.env.REACT_APP_TEMPLATE}`, e.target, `${process.env.REACT_APP_USER}`)
+        emailjs.sendForm("service_8zl1mun", "template_gm0dbrc", e.target, "user_Ng64SyqgO9SFhzNmIKGH0")
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
