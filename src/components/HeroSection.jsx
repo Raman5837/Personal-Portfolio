@@ -144,6 +144,7 @@ const HeroStyles = styled.div`
       margin-top: 3rem;
     }
     .hero__social {
+      padding-left: 1.5rem;
       left: 0px;
       bottom: -15%;
       width: 20px;
@@ -168,6 +169,7 @@ const HeroStyles = styled.div`
       }
     }
     .hero__scrollDown {
+      padding:right: 1.5rem;
       right: 0;
       width: 20px;
       gap: 1rem;
