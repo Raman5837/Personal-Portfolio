@@ -40,15 +40,12 @@ const AboutInfoContentStyles = styled.div`
         .content{
             position: initial;
             gap: 1rem;
+            flex-wrap: wrap;
         }
         .title{
             font-size: 1.8rem;
         }
-        .info{
-            display: flex;
-            flex-direction: column;
-            gap: 3rem;
-        }
+        
     }
     
 

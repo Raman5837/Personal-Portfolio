@@ -56,7 +56,7 @@ const ProjectSectionStyles = styled.div`
             gap: 5rem;
 
             .projectItem__img{
-                width: 100%;
+                max-width: 100%;
             }
         }
     }
@@ -71,13 +71,13 @@ const BlogSection = () => {
 
 
                 <div className="project_corosol">
-                    <Swiper spaceBetween={30} slidesPerView={5} navigation
+                    <Swiper spaceBetween={30} slidesPerView={1} navigation
                         breakpoints={
                             {
                                 //  when window width is >= 640px
                                 640: { slidesPerView: 1 },
                                 //  when window width is >= 768px
-                                768: { slidesPerView: 2 },
+                                768: { slidesPerView: 1 },
                                 //  when window width is >= 1200px
                                 1200: { slidesPerView: 1 }
                             }

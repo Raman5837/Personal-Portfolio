@@ -144,8 +144,7 @@ const HeroStyles = styled.div`
       margin-top: 3rem;
     }
     .hero__social {
-      margin-left: 2rem;
-      margin-right: 1rem;
+      margin-left: 1rem;
       left: 0px;
       bottom: -15%;
       width: 20px;
@@ -153,16 +152,16 @@ const HeroStyles = styled.div`
         width: 20px;
         p {
           font-size: 1.2rem;
-          margin-left: 2rem;
+          margin-left: 1rem;
         }
         img {
           max-height: 22px;
-          margin-left: 2rem;
+          margin-left: 1rem;
         }
       }
       .hero__social__text {
         ul {
-          padding-left: 2rem;
+          margin-left: 1rem;
           li {
             a {
               font-size: 1.2rem;
@@ -174,17 +173,15 @@ const HeroStyles = styled.div`
       }
     }
     .hero__scrollDown {
-      margin-right: 2rem;
+      margin-right: 1rem;
       right: 0;
       width: 20px;
       gap: 1rem;
       p {
         font-size: 1.3rem;
-        margin-right: 2rem;
+        margin-right: 1rem;
       }
-      img{
-        margin-right: 2rem;
-      }
+      
     }
   }
 `;

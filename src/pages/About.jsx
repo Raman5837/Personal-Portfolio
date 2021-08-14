@@ -75,6 +75,12 @@ const AboutPageStyles = styled.div`
         .about__info__heading{
             font-size: 3rem;
         }
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+        }
     }
 
 `
