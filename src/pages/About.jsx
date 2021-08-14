@@ -86,6 +86,9 @@ const AboutPageStyles = styled.div`
 `
 
 const About = () => {
+
+    const resumeLink = "https://drive.google.com/file/d/1jKgmJODB8loveK7HZq7NXYY9JOqNWhz2/view?usp=sharing"
+
     return (
         <>
             <AboutPageStyles>
@@ -111,7 +114,7 @@ const About = () => {
                                     If you cannot find me anywhere, try to look into my kitchen space. Maybe I'm making ☕.
                                 </PText>
                             </div>
-                            <SeeButton text="Download Resume" worksLink={"https://drive.google.com/file/d/1jKgmJODB8loveK7HZq7NXYY9JOqNWhz2/view?usp=sharing"} />
+                            <SeeButton text="Download Resume" worksLink={resumeLink} />
                         </div>
                         <div className="right">
                             <img src={AboutImage} alt="Aman" />

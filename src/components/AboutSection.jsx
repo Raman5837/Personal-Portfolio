@@ -87,6 +87,9 @@ const AboutSectionStyle = styled.div`
 `
 
 const AboutSection = () => {
+
+    const resumeLink = "https://drive.google.com/file/d/1jKgmJODB8loveK7HZq7NXYY9JOqNWhz2/view?usp=sharing"
+
     return (
         <AboutSectionStyle>
             <div className="container">
@@ -100,7 +103,7 @@ const AboutSection = () => {
                     </PText>
 
                     <div className="aboutSection__buttons">
-                        <SeeButton worksLink={"https://drive.google.com/file/d/1jKgmJODB8loveK7HZq7NXYY9JOqNWhz2/view?usp=sharing"} text="Download Resume" />
+                        <SeeButton worksLink={resumeLink} text="Download Resume" />
                         <SeeButton worksLink="/about" text="Read More" outline />
                     </div>
 
