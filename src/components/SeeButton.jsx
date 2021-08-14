@@ -29,7 +29,7 @@ const ButtonStyle = styled.div`
 `
 
 const SeeButton = ({
-    worksLink = "",
+    worksLink = "/projects/",
     text = "View My Works",
     outline = false
 }) => {
