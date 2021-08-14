@@ -45,9 +45,9 @@ const AboutInfoContentStyles = styled.div`
             font-size: 1.8rem;
         }
         .info{
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-            grid-gap: 50px 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
         }
     }
     

@@ -162,7 +162,7 @@ const HeroStyles = styled.div`
       }
       .hero__social__text {
         ul {
-          margin-left: 2rem;
+          padding-left: 2rem;
           li {
             a {
               font-size: 1.2rem;
