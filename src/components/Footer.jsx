@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="container">
 
                 <PText>
-                    Made With 🖤 By - {' '}
+                    &copy; - 2021 | Made With 🖤 By - {' '}
                     <a target="_blank" rel="noreferrer" href="http://webcifar.com">
                         Aman Verma
                     </a>{' '}
