@@ -57,6 +57,7 @@ const ProjectSectionStyles = styled.div`
 
             .projectItem__img{
                 max-width: 100%;
+                object-fit: contain;
             }
         }
     }
