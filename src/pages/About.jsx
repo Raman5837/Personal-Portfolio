@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import PText from './../components/PText';
 import SeeButton from './../components/SeeButton';
 import AboutImage from '../assets/images/Aman-PPic.jpg'
@@ -114,7 +115,10 @@ const About = () => {
                                     If you cannot find me anywhere, try to look into my kitchen space. Maybe I'm making ☕.
                                 </PText>
                             </div>
-                            <SeeButton text="Download Resume" worksLink={resumeLink} />
+                            <div className="button-wrapper">
+                                <Link className="button" to={{ pathname: resumeLink }} target="_blank" rel="noreferrer">Download Resume</Link>
+                            </div>
+
                         </div>
                         <div className="right">
                             <img src={AboutImage} alt="Aman" />
