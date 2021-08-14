@@ -57,7 +57,7 @@ const NavMenuStyle = styled.div`
     }
     @media only screen and (max-width: 768px){
 
-        padding: 0;
+        padding: 1rem;
 
         .hide-item{
             transform: translateY(calc(-100% - var(--top)))

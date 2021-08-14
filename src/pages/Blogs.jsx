@@ -46,6 +46,9 @@ const BlogPageStyles = styled.div`
     }
 
     @media only screen and (max-width: 768px) {
+
+        padding: 10rem 0;
+
         projects__searchBar,
         projects__searchBar form,
         projects__searchBar input{

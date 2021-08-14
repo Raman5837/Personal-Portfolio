@@ -10,7 +10,7 @@ import AboutInfoContent from '../components/AboutInfoContent';
 const AboutPageStyles = styled.div`
 
     padding: 20rem 0 10rem 0;
-    
+    overflow-x: hidden;
     .top-section{
         display: flex;
         align-items: center;
@@ -61,7 +61,7 @@ const AboutPageStyles = styled.div`
     }
     @media only screen and (max-width: 768px) {
         padding: 10rem 0;
-
+        overflow-x: hidden;
         .top-section{
             flex-direction: column;
             gap: 5rem;

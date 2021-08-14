@@ -15,6 +15,9 @@ const SectionTitleStyle = styled.div`
   }
   @media only screen and (max-width: 768px) {
     text-align: center;
+    .section-title{
+      flex-direction: column;
+    }
     p {
       font-size: 1.2rem;
     }
@@ -26,12 +29,12 @@ const SectionTitleStyle = styled.div`
 
 const SectionTitle = ({ subHeading = 'Need Subheading', heading = 'need heading' }) => {
 
-    return (
-        <SectionTitleStyle className="section-title">
-            <p>{subHeading}</p>
-            <h2>{heading}</h2>
-        </SectionTitleStyle>
-    )
+  return (
+    <SectionTitleStyle className="section-title">
+      <p>{subHeading}</p>
+      <h2>{heading}</h2>
+    </SectionTitleStyle>
+  )
 }
 
 export default SectionTitle
