@@ -35,7 +35,8 @@ const SeeButton = ({
 }) => {
     return (
         <ButtonStyle className="button-wrapper" outline={outline}>
-            <Link className="button" to={{ pathname: worksLink }}> {text}</Link>
+            {/* <Link className="button" to={{ pathname: worksLink }}> {text}</Link> */}
+            <Link className="button" to={{ pathname: worksLink }} target="_blank" rel="noreferrer">{text}</Link>
         </ButtonStyle>
     )
 }
