@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import PText from './PText'
 import SectionTitle from './SectionTitle'
 import SeeButton from './SeeButton'
-// import AboutImage from '../assets/images/about-sec-img.png'
+import { Link } from 'react-router-dom';
 import AboutImage from '../assets/images/coder-4.jpg'
 
 
@@ -39,10 +39,33 @@ const AboutSectionStyle = styled.div`
         justify-content: flex-start;
         gap: 2rem;
         margin-top: 2rem;
-
-        .button:hover{
+        
+    
+        .button:hover, .Button:hover{
             transform: translateY(10%);
             transition: all .3s ease-in-out;
+        }
+    }
+    .Button{
+        margin-top: 1.8rem;
+        font-size: 2.2rem;
+        background-color: ${(props =>
+        props.outline ? 'transparent' : 'var(--gray-1)'
+    )};
+        padding: .7em 2em;
+        border-radius: 8px;
+        display: inline-block;
+        border: 2px solid var(--gray-1);
+        color: ${(props =>
+        props.outline ? 'var(--gray-1)' : 'black'
+    )};
+    }
+    
+    @media only screen and (max-width: 1200px){
+        .aboutSection__buttons{
+            flex-wrap: wrap;
+            justify-content: center;
+            
         }
     }
 
@@ -103,8 +126,11 @@ const AboutSection = () => {
                     </PText>
 
                     <div className="aboutSection__buttons">
-                        <SeeButton worksLink={resumeLink} text="Download Resume" />
+
+                        <Link className="Button" to={{ pathname: resumeLink }} target="_blank" rel="noreferrer">Download Resume</Link>
+
                         <SeeButton worksLink="/about" text="Read More" outline />
+
                     </div>
 
                 </div>

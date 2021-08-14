@@ -59,6 +59,19 @@ const AboutPageStyles = styled.div`
         text-transform: uppercase;
         
     }
+    .button{
+        font-size: 2.2rem;
+        background-color: ${(props =>
+        props.outline ? 'transparent' : 'var(--gray-1)'
+    )};
+        padding: .7em 2em;
+        border-radius: 8px;
+        display: inline-block;
+        border: 2px solid var(--gray-1);
+        color: ${(props =>
+        props.outline ? 'var(--gray-1)' : 'black'
+    )};
+    }
     @media only screen and (max-width: 768px) {
         padding: 10rem 0;
         overflow-x: hidden;
@@ -80,6 +93,7 @@ const AboutPageStyles = styled.div`
             align-items: center;
             justify-content: center;
             max-width: 100%;
+            font-size: 1.8rem;
         }
     }
 

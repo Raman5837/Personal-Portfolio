@@ -143,6 +143,12 @@ const HeroStyles = styled.div`
     .hero__info {
       margin-top: 3rem;
     }
+    .hero__social{
+      margin-left: 1rem;
+    }
+    .hero__social__indicator{
+      margin-right: 1rem;
+    }
     .hero__social {
       
       left: 0px;
