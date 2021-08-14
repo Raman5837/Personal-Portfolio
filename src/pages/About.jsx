@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import PText from './../components/PText';
-import SeeButton from './../components/SeeButton';
 import AboutImage from '../assets/images/Aman-PPic.jpg'
 import styled from 'styled-components';
 import AboutInfoContent from '../components/AboutInfoContent';
