@@ -19,6 +19,7 @@ const ContactBannerStyles = styled.div`
     }
 
     @media only screen and (max-width: 768px) {
+        padding: 5rem 0;
         .contactBanner__heading{
             font-size: 2.8rem;
         }
