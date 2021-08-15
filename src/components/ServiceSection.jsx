@@ -51,7 +51,7 @@ const ServiceSection = () => {
 
                     <ServiceSectionItems icon={<MdCode />} title="Programming" description="Ping me to get help in solving programming problems. I'll try to resolve your issues." />
 
-                    <ServiceSectionItems icon={<MdAssistant />} title="Projects" description="In my spare time, I like to write experiment with new tech . I’m always interested in new projects, so feel free to drop me a line." />
+                    <ServiceSectionItems icon={<MdAssistant />} title="Projects" description="In my spare time, I like to do experiment with new tech . I’m always interested in new projects, so feel free to drop me a line." />
 
                 </div>
             </div>
