@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import EcomProject from '../images/Ecom_Project.jpg';
 import AndroidApp from '../images/SendAnnonymously.jpg'
+import CovertApp from '../images/CovertApp'
 import PizzaCart from '../images/PizzaCart.png';
 import ChatBot from '../images/ChatBot.jpg';
 import TalkingDict from '../images/TalkingDict.jpg';
@@ -15,6 +16,14 @@ const projects = [
     img: EcomProject,
     githubUrl: "https://github.com/Raman5837/Django_ESHOP",
     projectUrl: ""
+  },
+  {
+    id: uuidv4(),
+    name: "Covert - File Sharing App",
+    desc: "A Web App To Share Anytype Of File With Anyone, Either by sharing download link directly or via email, or by scanning QR Code ",
+    img: CovertApp,
+    githubUrl: "https://github.com/Raman5837/Covert-FileShare",
+    projectUrl: "https://covert-file-sharing-app.vercel.app"
   },
   {
     id: uuidv4(),
