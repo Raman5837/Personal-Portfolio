@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "Covert - File Sharing App",
+    name: "Covert - File Sharing",
     desc: "A Web App To Share Anytype Of File With Anyone, By sharing download link or by scanning QR Code ",
     img: CovertApp,
     githubUrl: "https://github.com/Raman5837/Covert-FileShare",
