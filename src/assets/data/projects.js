@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import EcomProject from '../images/Ecom_Project.jpg';
 import AndroidApp from '../images/SendAnnonymously.jpg'
-import CovertApp from '../images/CovertApp'
+import CovertApp from '../images/CovertApp.jpg'
 import PizzaCart from '../images/PizzaCart.png';
 import ChatBot from '../images/ChatBot.jpg';
 import TalkingDict from '../images/TalkingDict.jpg';
