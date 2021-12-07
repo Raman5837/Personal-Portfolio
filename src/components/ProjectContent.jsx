@@ -88,7 +88,7 @@ const ProjectContent = ({
 
     return (
         <ProjectContentStyles>
-            <Link to={{ pathname: githubUrl }} className="projectItem__img">
+            <Link to={{ pathname: githubUrl }} target="_blank" rel="noreferrer" className="projectItem__img">
                 <img src={img} alt="Project" />
             </Link>
             <div className="projectItem__info">
