@@ -73,11 +73,11 @@ const BlogContent = ({
 
     return (
         <BlogContentStyles>
-            <Link to={{ pathname: url }} className="projectItem__img">
+            <Link to={{ pathname: url }} target="_blank" rel="noreferrer" className="projectItem__img">
                 <img src={img} alt="Project" />
             </Link>
             <div className="projectItem__info">
-                <Link className="readMore" to={{ pathname: url }}>
+                <Link className="readMore" to={{ pathname: url }}> target="_blank" rel="noreferrer"
                     <h3 className="projectItem__title">{title}</h3>
                     <span>Read More</span>
                 </Link>
