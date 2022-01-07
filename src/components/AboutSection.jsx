@@ -111,7 +111,7 @@ const AboutSectionStyle = styled.div`
 
 const AboutSection = () => {
 
-    const resumeLink = "https://drive.google.com/file/d/1ls0yHgFRv9WGElsorjm9CUSk7FsYE4Fh/view?usp=sharing"
+    const resumeLink = "https://drive.google.com/file/d/1z-aVh504_NNZZ2cKcWhUVLIDmHUF1umR/view?usp=sharing"
 
     return (
         <AboutSectionStyle>
