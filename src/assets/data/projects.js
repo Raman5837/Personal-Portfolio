@@ -12,7 +12,7 @@ const projects = [
   {
     id: uuidv4(),
     name: "E-Commerce Website",
-    desc: "An Ecommerce Website With Minimalist Features Using Django, HTML, CSS and Bootstrap",
+    desc: "An Ecommerce Website With Features Likes User Profile, Invoice After Payment And Many More Using Django, HTML, CSS and JavaScript",
     img: EcomProject,
     githubUrl: "https://github.com/Raman5837/Make4Me",
     projectUrl: "https://github.com/Raman5837/Make4Me"
