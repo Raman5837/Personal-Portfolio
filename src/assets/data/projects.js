@@ -11,11 +11,11 @@ import URLShortener from '../images/URL-Shortner.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: "Ecommerce Website",
+    name: "Make4Me - E-Com Website",
     desc: "An Ecommerce Website With Minimalist Features Using Django, HTML, CSS and Bootstrap",
     img: EcomProject,
-    githubUrl: "https://github.com/Raman5837/Django_ESHOP",
-    projectUrl: ""
+    githubUrl: "https://github.com/Raman5837/Make4Me",
+    projectUrl: "https://github.com/Raman5837/Make4Me"
   },
   {
     id: uuidv4(),
@@ -31,7 +31,7 @@ const projects = [
     desc: "An Android Application For Sending WhatsApp Messages Without Saving Contact Of The Person.",
     img: AndroidApp,
     githubUrl: "https://github.com/Raman5837/Send-Anonymously",
-    projectUrl: ""
+    projectUrl: "https://github.com/Raman5837/Send-Anonymously"
   },
   {
     id: uuidv4(),
@@ -39,7 +39,7 @@ const projects = [
     desc: "A Custom URL Shortener Using NodeJs , MongoDB , ExpressJs",
     img: URLShortener,
     githubUrl: "https://github.com/Raman5837/URL-Shortener",
-    projectUrl: ""
+    projectUrl: "https://github.com/Raman5837/URL-Shortener"
   },
   {
     id: uuidv4(),
@@ -47,7 +47,7 @@ const projects = [
     desc: "MultiPage Pizza Shoping Cart using React.Js",
     img: PizzaCart,
     githubUrl: "https://github.com/Raman5837/React-Cart",
-    projectUrl: ""
+    projectUrl: "https://github.com/Raman5837/React-Cart"
   },
   {
     id: uuidv4(),
@@ -55,7 +55,7 @@ const projects = [
     desc: "A GUI Based ChatBot using Python",
     img: ChatBot,
     githubUrl: "https://github.com/Raman5837/ChatBot",
-    projectUrl: ""
+    projectUrl: "https://github.com/Raman5837/ChatBot"
   },
   {
     id: uuidv4(),
@@ -63,7 +63,7 @@ const projects = [
     desc: "A GUI Base Python Talking-Dictionary",
     img: TalkingDict,
     githubUrl: "https://github.com/Raman5837/Talking-Dictionary",
-    projectUrl: ""
+    projectUrl: "https://github.com/Raman5837/Talking-Dictionary"
   },
 
 ];
