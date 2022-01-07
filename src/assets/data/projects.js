@@ -11,7 +11,7 @@ import URLShortener from '../images/URL-Shortner.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: "Make4Me - E-Com Website",
+    name: "E-Commerce Website",
     desc: "An Ecommerce Website With Minimalist Features Using Django, HTML, CSS and Bootstrap",
     img: EcomProject,
     githubUrl: "https://github.com/Raman5837/Make4Me",
