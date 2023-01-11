@@ -122,7 +122,7 @@ const About = () => {
                                     Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.
                                     <br></br>
                                     <br></br>
-                                    Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
+                                    I have an overall working experience of 1.5 years.
                                     <br></br>
                                     <br></br>
                                     If you cannot find me anywhere, try to look into my kitchen space. Maybe I'm making ☕.
