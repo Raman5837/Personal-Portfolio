@@ -101,7 +101,7 @@ const AboutPageStyles = styled.div`
 
 const About = () => {
 
-    const resumeLink = "https://drive.google.com/file/d/1z-aVh504_NNZZ2cKcWhUVLIDmHUF1umR/view?usp=sharing"
+    const resumeLink = "https://drive.google.com/file/d/1cU8aTpfFzUYsDK0V11G_m9w4cVghq8iU/view"
 
     return (
         <>
@@ -153,10 +153,10 @@ const About = () => {
                             <h1 className="about__info__heading">
                                 My Skills
                             </h1>
-                            <AboutInfoContent title="Programming Languages" info={["Python", "Java"]} />
-                            <AboutInfoContent title="Web Development" info={["Django", "React", "JavaScript", "HTML", "CSS", "Bootstrap"]} />
-                            <AboutInfoContent title="Database" info={["MySQL"]} />
-                            <AboutInfoContent title="Core Skills" info={["DSA", "OOPS", "Problem Solving"]} />
+                            <AboutInfoContent title="Programming Languages" info={["Python", "Java", "Go"]} />
+                            <AboutInfoContent title="Development" info={["Django", "DRF", "FastAPI", "MERN Stack"]} />
+                            <AboutInfoContent title="Database" info={["MySQL", "PostgreSQL", "NoSQL"]} />
+                            <AboutInfoContent title="Core Skills" info={["DSA", "OOPS", "Problem-Solving"]} />
                         </div>
 
                     </div>
