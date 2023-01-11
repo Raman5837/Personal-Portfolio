@@ -206,7 +206,7 @@ const HeroSection = () => {
           </div>
           <div className="hero__info">
             <PText>
-              I am a pre-final year under-graduate student who loves to build things from scratch.
+              I am currently looking for a new opportunity.
             </PText>
 
             <SeeButton btnText="see my works" btnLink="/projects" />
