@@ -3,8 +3,8 @@ import EcomProject from '../images/Ecom_Project.jpg';
 import AndroidApp from '../images/SendAnnonymously.jpg'
 import CovertApp from '../images/CovertApp.jpg'
 import PizzaCart from '../images/PizzaCart.png';
-import ChatBot from '../images/ChatBot.jpg';
-import TalkingDict from '../images/TalkingDict.jpg';
+// import ChatBot from '../images/ChatBot.jpg';
+// import TalkingDict from '../images/TalkingDict.jpg';
 import URLShortener from '../images/URL-Shortner.jpg';
 
 
@@ -49,22 +49,22 @@ const projects = [
     githubUrl: "https://github.com/Raman5837/React-Cart",
     projectUrl: "https://github.com/Raman5837/React-Cart"
   },
-  {
-    id: uuidv4(),
-    name: "AI ChatBot",
-    desc: "A GUI Based ChatBot using Python",
-    img: ChatBot,
-    githubUrl: "https://github.com/Raman5837/ChatBot",
-    projectUrl: "https://github.com/Raman5837/ChatBot"
-  },
-  {
-    id: uuidv4(),
-    name: "Talking Dictionary",
-    desc: "A GUI Base Python Talking-Dictionary",
-    img: TalkingDict,
-    githubUrl: "https://github.com/Raman5837/Talking-Dictionary",
-    projectUrl: "https://github.com/Raman5837/Talking-Dictionary"
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "AI ChatBot",
+  //   desc: "A GUI Based ChatBot using Python",
+  //   img: ChatBot,
+  //   githubUrl: "https://github.com/Raman5837/ChatBot",
+  //   projectUrl: "https://github.com/Raman5837/ChatBot"
+  // },
+  // {
+  //   id: uuidv4(),
+  //   name: "Talking Dictionary",
+  //   desc: "A GUI Base Python Talking-Dictionary",
+  //   img: TalkingDict,
+  //   githubUrl: "https://github.com/Raman5837/Talking-Dictionary",
+  //   projectUrl: "https://github.com/Raman5837/Talking-Dictionary"
+  // },
 
 ];
 
