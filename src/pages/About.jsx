@@ -153,8 +153,8 @@ const About = () => {
                             <h1 className="about__info__heading">
                                 My Skills
                             </h1>
-                            <AboutInfoContent title="Programming Languages" info={["Python", "Java", "Go", "JavaScript"]} />
-                            <AboutInfoContent title="Development" info={["Django", "DRF", "FastAPI", "MERN Stack"]} />
+                            <AboutInfoContent title="Programming Languages" info={["Python", "Go", "Java", "JavaScript"]} />
+                            <AboutInfoContent title="Development" info={["Django", "Fiber", "FastAPI", "MERN Stack"]} />
                             <AboutInfoContent title="Database" info={["MySQL", "PostgreSQL", "NoSQL", "Redis"]} />
                             <AboutInfoContent title="Core Skills" info={["DSA", "OOPS", "Problem-Solving"]} />
                         </div>
