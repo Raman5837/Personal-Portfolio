@@ -101,7 +101,7 @@ const AboutPageStyles = styled.div`
 
 const About = () => {
 
-    const resumeLink = "https://drive.google.com/file/d/1cU8aTpfFzUYsDK0V11G_m9w4cVghq8iU/view"
+    const resumeLink = "https://drive.google.com/file/d/1U6d1blkqCFexm-ItRX1C_ArVGUbIKboB/view"
 
     return (
         <>
