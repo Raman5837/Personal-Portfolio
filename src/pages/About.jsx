@@ -154,7 +154,7 @@ const About = () => {
                                 My Skills
                             </h1>
                             <AboutInfoContent title="Programming Languages" info={["Python", "Go", "Java", "JavaScript"]} />
-                            <AboutInfoContent title="Development" info={["Django", "Fiber", "FastAPI", "MERN Stack"]} />
+                            <AboutInfoContent title="Development" info={["Django", "Spring Boot", "FastAPI", "MERN Stack"]} />
                             <AboutInfoContent title="Database" info={["MySQL", "PostgreSQL", "NoSQL", "Redis"]} />
                             <AboutInfoContent title="Core Skills" info={["OOPS", "Designs", "DSA", "Problem-Solving"]} />
                         </div>
