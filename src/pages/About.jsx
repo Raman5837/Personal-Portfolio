@@ -122,7 +122,7 @@ const About = () => {
                                     Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.
                                     <br></br>
                                     <br></br>
-                                    I have an overall working experience of 1.5 years.
+                                    I have an overall working experience of 2.5+ years.
                                     <br></br>
                                     <br></br>
                                     If you cannot find me anywhere, try to look into my kitchen space. Maybe I'm making ☕.
@@ -154,7 +154,7 @@ const About = () => {
                                 My Skills
                             </h1>
                             <AboutInfoContent title="Programming Languages" info={["Python", "Go", "Java", "JavaScript"]} />
-                            <AboutInfoContent title="Development" info={["Django", "Spring Boot", "FastAPI", "MERN Stack"]} />
+                            <AboutInfoContent title="Development" info={["Django", "Spring Boot", "FastAPI", "MERN"]} />
                             <AboutInfoContent title="Database" info={["MySQL", "PostgreSQL", "NoSQL", "Redis"]} />
                             <AboutInfoContent title="Core Skills" info={["OOPS", "Designs", "DSA", "Problem-Solving"]} />
                         </div>
