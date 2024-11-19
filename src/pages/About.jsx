@@ -101,7 +101,7 @@ const AboutPageStyles = styled.div`
 
 const About = () => {
 
-    const resumeLink = "https://drive.google.com/file/d/1U6d1blkqCFexm-ItRX1C_ArVGUbIKboB/view"
+    const resumeLink = "https://drive.google.com/file/d/1v7qgOTrtXc6mb3MHibnSu7bxKYdtXUhG/view"
 
     return (
         <>
@@ -122,7 +122,7 @@ const About = () => {
                                     Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.
                                     <br></br>
                                     <br></br>
-                                    I have an overall working experience of 2.5+ years.
+                                    I have an overall working experience of 3+ years.
                                     <br></br>
                                     <br></br>
                                     If you cannot find me anywhere, try to look into my kitchen space. Maybe I'm making ☕.
