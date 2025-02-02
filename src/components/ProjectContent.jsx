@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import projectImg from "../assets/images/projectImg.jpg";
 import styled from "styled-components";
 import { FaExternalLinkAlt, FaGithubAlt } from "react-icons/fa";
@@ -76,36 +75,36 @@ const ProjectContent = ({
 }) => {
   return (
     <ProjectContentStyles>
-      <Link
-        to={{ pathname: githubUrl }}
+      <a
+        href={githubUrl}
         target="_blank"
         rel="noreferrer"
         className="projectItem__img"
       >
         <img src={img} alt="Project" />
-      </Link>
+      </a>
       <div className="projectItem__info">
         <div className="readMore">
-          <Link to={{ pathname: githubUrl }}>
+          <a href={githubUrl}>
             <h3 className="projectItem__title">{title}</h3>
-          </Link>
+          </a>
           <div className="project__Link">
-            <Link
+            <a
               className="project__githubLink_Logo"
-              to={{ pathname: githubUrl }}
+              href={githubUrl}
               target="_blank"
               rel="noreferrer"
             >
               <FaGithubAlt />
-            </Link>
-            <Link
+            </a>
+            <a
               className="project__Link_Logo"
-              to={{ pathname: projectUrl }}
+              href={githubUrl}
               target="_blank"
               rel="noreferrer"
             >
               <FaExternalLinkAlt />
-            </Link>
+            </a>
           </div>
         </div>
         <hr />

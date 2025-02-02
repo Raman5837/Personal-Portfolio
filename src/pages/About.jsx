@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PText from "./../components/PText";
 import AboutImage from "../assets/images/Aman-PPic.jpg";
 import styled from "styled-components";
@@ -60,7 +59,7 @@ const AboutPageStyles = styled.div`
   .button {
     font-size: 2.2rem;
     background-color: ${(props) =>
-      props.outline ? "transparent" : "var(--gray-1)"};
+    props.outline ? "transparent" : "var(--gray-1)"};
     padding: 0.7em 2em;
     border-radius: 8px;
     display: inline-block;
@@ -131,14 +130,14 @@ const About = () => {
                 </PText>
               </div>
               <div className="button-wrapper">
-                <Link
+                <a
                   className="button"
-                  to={{ pathname: env.RESUME_LINK }}
+                  href={env.RESUME_LINK}
                   target="_blank"
                   rel="noreferrer"
                 >
                   Download Resume
-                </Link>
+                </a>
               </div>
             </div>
             <div className="right">

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import PText from "./PText";
 import SectionTitle from "./SectionTitle";
 import SeeButton from "./SeeButton";
-import { Link } from "react-router-dom";
 import AboutImage from "../assets/images/coder-4.jpg";
 import env from "../config/env";
 
@@ -49,7 +48,7 @@ const AboutSectionStyle = styled.div`
     margin-top: 1.8rem;
     font-size: 2.2rem;
     background-color: ${(props) =>
-      props.outline ? "transparent" : "var(--gray-1)"};
+    props.outline ? "transparent" : "var(--gray-1)"};
     padding: 0.7em 2em;
     border-radius: 8px;
     display: inline-block;
@@ -123,14 +122,14 @@ const AboutSection = () => {
           </PText>
 
           <div className="aboutSection__buttons">
-            <Link
+            <a
               className="Button"
-              to={{ pathname: env.RESUME_LINK }}
+              href={env.RESUME_LINK}
               target="_blank"
               rel="noreferrer"
             >
               Download Resume
-            </Link>
+            </a>
 
             <SeeButton worksLink="/about" text="Read More" outline />
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import projectImg from "../assets/images/projectImg.jpg";
 
 import styled from "styled-components";
@@ -62,24 +61,19 @@ const BlogContent = ({
 }) => {
   return (
     <BlogContentStyles>
-      <Link
-        to={{ pathname: url }}
+      <a
+        href={url}
         target="_blank"
         rel="noreferrer"
         className="projectItem__img"
       >
         <img src={img} alt="Project" />
-      </Link>
+      </a>
       <div className="projectItem__info">
-        <Link
-          className="readMore"
-          to={{ pathname: url }}
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={url} target="_blank" rel="noreferrer" className="readMore">
           <h3 className="projectItem__title">{title}</h3>
           <span>Read More</span>
-        </Link>
+        </a>
         <hr />
         <p className="projectItem__description">{description}</p>
       </div>
