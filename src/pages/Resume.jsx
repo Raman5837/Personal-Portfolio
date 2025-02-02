@@ -39,7 +39,7 @@ const Resume = () => {
   const [resumeLink, setResumeLink] = useState("");
 
   useEffect(() => {
-    setResumeLink(env.RESUME_LINK);
+    setResumeLink(env.RESUME_LINK_PREVIEW);
   }, []);
 
   return (

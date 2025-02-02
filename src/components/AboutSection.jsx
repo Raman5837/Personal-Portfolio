@@ -48,7 +48,7 @@ const AboutSectionStyle = styled.div`
     margin-top: 1.8rem;
     font-size: 2.2rem;
     background-color: ${(props) =>
-    props.outline ? "transparent" : "var(--gray-1)"};
+      props.outline ? "transparent" : "var(--gray-1)"};
     padding: 0.7em 2em;
     border-radius: 8px;
     display: inline-block;
@@ -124,7 +124,7 @@ const AboutSection = () => {
           <div className="aboutSection__buttons">
             <a
               className="Button"
-              href={env.RESUME_LINK}
+              href={env.RESUME_LINK_VIEW}
               target="_blank"
               rel="noreferrer"
             >
