@@ -14,13 +14,13 @@ const ServiceSectionItemsStyles = styled.div`
   }
   .servicesItem__title {
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-family: "Montserrat SemiBold";
   }
   .para {
     text-align: left;
     margin-top: 3rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 `;
 
