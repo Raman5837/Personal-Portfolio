@@ -1,14 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 // import HeroImg from '../assets/images/hero.png'
-import HeroImg from '../assets/images/coder-5.svg'
-import PText from './PText'
-import SeeButton from './SeeButton'
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg'
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg'
-import Github from '../assets/images/github.png'
-import LinkedIn from '../assets/images/linkedIn.png'
-import Twitter from '../assets/images/twitter.png'
+import HeroImg from "../assets/images/coder-5.svg";
+import PText from "./PText";
+import SeeButton from "./SeeButton";
+import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
+import Github from "../assets/images/github.png";
+import LinkedIn from "../assets/images/linkedIn.png";
+import Twitter from "../assets/images/twitter.png";
 
 const HeroStyles = styled.div`
   .hero {
@@ -33,13 +33,13 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: "Montserrat SemiBold";
       font-size: 5.5rem;
       color: var(--white);
       margin-bottom: 6rem;
     }
   }
-  
+
   .hero__img {
     max-width: 900px;
     width: 100%;
@@ -48,29 +48,26 @@ const HeroStyles = styled.div`
     margin-top: 5rem;
     border: 2px solid var(--gray-1);
     // position: relative;
-    
-    img{
-      
+
+    img {
       object-fit: contain;
       vertical-align: middle;
-      
     }
   }
   .hero__info {
     margin-top: 2rem;
-   
   }
-  .button{
-      width: 70%;
-      align-items: center;
-      margin: 0 auto;
-      padding: .7em 0em;
+  .button {
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.7em 0em;
   }
-  .button:hover{
+  .button:hover {
     transform: translateY(10%);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
-  
+
   .hero__social,
   .hero__scrollDown {
     display: flex;
@@ -82,17 +79,14 @@ const HeroStyles = styled.div`
   }
   .hero__social {
     left: 70px;
-    
-
   }
   .hero__scrollDown {
     right: 70px;
-    
   }
   .hero__social__indicator,
   .hero__scrollDown {
     width: 50px;
-    
+
     p {
       font-size: 1.6rem;
       transform: translateY(-70px) rotate(90deg);
@@ -143,14 +137,13 @@ const HeroStyles = styled.div`
     .hero__info {
       margin-top: 3rem;
     }
-    .hero__social{
+    .hero__social {
       margin-left: 1rem;
     }
-    .hero__social__indicator{
+    .hero__social__indicator {
       margin-right: 1rem;
     }
     .hero__social {
-      
       left: 0px;
       bottom: -15%;
       width: 20px;
@@ -158,36 +151,29 @@ const HeroStyles = styled.div`
         width: 20px;
         p {
           font-size: 1.2rem;
-          
         }
         img {
           max-height: 22px;
-          
         }
       }
       .hero__social__text {
         ul {
-          
           li {
             a {
               font-size: 1.2rem;
               margin-bottom: 1rem;
-              
             }
           }
         }
       }
     }
     .hero__scrollDown {
-      
       right: 0;
       width: 20px;
       gap: 1rem;
       p {
         font-size: 1.3rem;
-        
       }
-      
     }
   }
 `;
@@ -199,19 +185,17 @@ const HeroSection = () => {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hi , I'm </span>
-            <span className="hero__name">Aman Verma</span>
+            <span className="hero__name">Aman</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am currently looking for a new opportunity.
+              Always open to exploring new opportunities and interesting ideas.
             </PText>
 
             <SeeButton btnText="see my works" btnLink="/projects" />
-
-
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
@@ -235,8 +219,7 @@ const HeroSection = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={LinkedIn} alt="Raman5837" />
-
+                    <img src={LinkedIn} alt="aman5837" />
                   </a>
                 </li>
                 <li>
@@ -245,10 +228,9 @@ const HeroSection = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={Twitter} alt="Raman5837" />
+                    <img src={Twitter} alt="_______Aman" />
                   </a>
                 </li>
-
               </ul>
             </div>
           </div>
@@ -260,6 +242,6 @@ const HeroSection = () => {
       </div>
     </HeroStyles>
   );
-}
+};
 
-export default HeroSection
+export default HeroSection;

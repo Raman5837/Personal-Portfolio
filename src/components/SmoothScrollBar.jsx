@@ -1,23 +1,13 @@
-import React, { useRef, useEffect } from 'react'
-import ScrollBar from 'react-smooth-scrollbar'
-import { useLocation } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 const SmoothScrollBar = ({ children }) => {
+  useEffect(() => {
+    // Optionally scroll to the top when the component mounts
+    scroll.scrollToTop();
+  }, []);
 
-    const ref = useRef(null)
+  return <div>{children}</div>;
+};
 
-    const { pathName } = useLocation()
-
-    useEffect(() => {
-        const { scrollbar } = ref.current;
-        scrollbar.setPosition(0, 0);
-    }, [pathName])
-
-    return (
-        <ScrollBar ref={ref} damping={0.05}>
-            {children}
-        </ScrollBar>
-    )
-}
-
-export default SmoothScrollBar
+export default SmoothScrollBar;
